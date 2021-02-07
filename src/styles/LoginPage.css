@@ -66,3 +66,22 @@
     width: 100%;
     height: 30px;
 }
+
+.login__error {
+    color: red;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.login__container.error {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    background-color: rgb(235, 191, 191);
+}
